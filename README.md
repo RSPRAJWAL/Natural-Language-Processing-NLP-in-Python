@@ -1,8 +1,10 @@
 # Natural-Language-Processing-NLP-in-Python
+
 1. Overview of the Project
 The "Natural Language Processing in Python Tutorial" is a comprehensive guide designed to introduce users to various NLP techniques using Python. The project focuses on analyzing stand-up comedians' transcripts to demonstrate practical applications of NLP. It comprises a series of Jupyter Notebooks, each dedicated to a specific aspect of NLP, facilitating hands-on learning and exploration.
 
-2. Project Structure and Content
+
+3. Project Structure and Content
 Jupyter Notebooks: The tutorial is organized into several notebooks, each focusing on a distinct NLP task:
 
 0-Hello-World.ipynb: Introduction to the tutorial and setup instructions.
@@ -14,6 +16,7 @@ Jupyter Notebooks: The tutorial is organized into several notebooks, each focusi
 Data: The project includes a transcripts directory containing text files of various stand-up comedians' performances. These serve as the primary dataset for analysis throughout the tutorial.
 
 Additional Resources: A notes.md file is provided, offering supplementary information, including Jupyter Notebook shortcuts, web scraping tips, and regular expressions guidance. 
+
 
 3. Setup and Installation
 Prerequisites: To effectively engage with the tutorial, users are advised to install Anaconda, which includes Jupyter Notebook and essential data science libraries. The recommended version is Python 3.7.
@@ -42,7 +45,9 @@ Open the Notebooks: Navigate to the project directory within Jupyter and open 0-
 
 Additional Packages: Some notebooks may require extra libraries such as wordcloud, textblob, and gensim. Install them using pip or conda as needed.
 
+
 4. Detailed Breakdown of Notebooks
+   
 1. Data Cleaning (1-Data-Cleaning.ipynb):
 
 Objective: Prepare raw text data for analysis by removing inconsistencies and standardizing formats.
@@ -52,6 +57,8 @@ Converting text to lowercase.
 Tokenization: Splitting text into individual words or tokens.
 Removing stop words: Eliminating common words that may not carry significant meaning (e.g., "and", "the", "is").
 Stemming and Lemmatization: Reducing words to their root forms.
+
+
 2. Exploratory Data Analysis (2-Exploratory-Data-Analysis.ipynb):
 
 Objective: Gain insights into the dataset through visualization and statistical measures.
@@ -59,12 +66,16 @@ Techniques:
 Word frequency analysis: Identifying the most common words or phrases.
 Word clouds: Visual representations of word frequency.
 Distribution plots: Understanding the spread and central tendencies of word counts and sentence lengths.
+
+
 3. Sentiment Analysis (3-Sentiment-Analysis.ipynb):
 
 Objective: Determine the sentiment or emotional tone of the text data.
 Techniques:
 Using pre-trained models from libraries like TextBlob to classify text as positive, negative, or neutral.
 Visualizing sentiment distribution across different comedians to compare their styles.
+
+
 4. Topic Modeling (4-Topic-Modeling.ipynb):
 
 Objective: Identify underlying topics present in the text corpus.
@@ -72,13 +83,15 @@ Techniques:
 Implementing Latent Dirichlet Allocation (LDA) to discover topics.
 Analyzing the composition of topics across different comedians' transcripts.
 
+
 5. Text Generation (5-Text-Generation.ipynb):
 
 Objective: Generate new text sequences that mimic the style of the input data.
 Techniques:
 Building and training Recurrent Neural Networks (RNNs) to produce text.
 Experimenting with model parameters to improve the quality and coherence of generated text.
+
+
 5. Future Enhancements
 To further enrich the tutorial, consider the following improvements:
-
 Incorporate Advanced NLP Models: Integrate state-of-the-art 
